@@ -78,6 +78,10 @@ namespace taghsime_aghsat
                     naghd_100_tx.Text = String.Format("{0:N0}", t.Item1);
                     ghest_100_tx.Text = String.Format("{0:N0}", t.Item2);
                 }
+                else
+                {
+                    MessageBox.Show("wwwwwww");
+                }
             }
         }
 
